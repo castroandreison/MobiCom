@@ -1,7 +1,9 @@
+
 import streamlit as st
 import gdown
 from PIL import Image
 import os
+os.system('pip install gdown')
 
 # Função para baixar imagens do Google Drive
 def download_image_from_drive(drive_url, output_path):
